@@ -1,0 +1,417 @@
+<!-- comentario normal
+ *Info importante
+? pregunta- duda
+!IMPORTANTE
+TODO: cosas que faltan hacer
+--borrado--
+-->
+
+<!--* 1-Base -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabricio Cárdenas</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+    <!--* 2-Header -->
+    <div class="contenedor-header"> <!--Plantilla navbar-->
+        <header>
+            <div class = "logo">
+                <a href="#">FabCA</a>
+            </div>
+            <div class="menu-toggle"onclick="mostrarOcultarMenu()">☰</div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!--* 3-Inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/FabCA.png" alt="">
+            </div>
+            <h1>FABRICIO CÁRDENAS</h1>
+            <h2>Ingeniero de Software y Sistemas Computacionales</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/fabca06/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/FabCAdev" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/fabricio-cárdenas-4b145b327/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=524771387230" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--* 4-Sobre mi-->
+    <section id="sobremi" class="sobremi">
+        <div class ="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Fabricio Cárdenas. </span> Estudiante de Ingeniería en Software y Sistemas Computacionales en la Universidad De La Salle Bajío, comprometido con la excelencia académica y el desarrollo continuo. Apasionado por la tecnología, la innovación y la resolución de problemas complejos mediante el uso de herramientas de software modernas. Siempre dispuesto a dar lo mejor de mí, con una actitud proactiva, ética profesional y enfoque en el trabajo colaborativo. Me interesa especialmente el desarrollo de software, la inteligencia artificial y la ciberseguridad, y busco constantemente oportunidades para aplicar mis conocimientos en proyectos reales que generen un impacto positivo.</p>
+            <div class="fila">
+                <!--* 4.1-Datos Personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>05/08/2006
+                        </li>
+                        <li>
+                            <strong>Edad</strong>18 años
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>(+52) 477-138-7230
+                        </li>
+                        <li>
+                            <strong>Email</strong>FabCA06@gmail.com
+                        </li>
+                        <li>
+                            <strong>WebSite</strong>www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>Santa Virtudes 108, El Rosario
+                        </li>
+                        <li>
+                            <strong></strong>
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>PROJECT MANAGER</span>
+                            <span>FREELANCER</span>
+                            <span>BACKEND</span>
+                            <span>DEVELOPER</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--* 4.2-Intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-tv"></i>
+                            <span>SERIES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-linux"></i>
+                            <span>LINUX</span>
+                        </div>
+                        <div class="interes">
+                            <img src="img/Salle_logo.png">
+                            <span>SALLE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--* 4.3-CV-->
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!--* 5-Skills-->
+    <section id="skills" class="skills">
+        <div class ="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--* 5.1-Techical Skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Microsoft SQL Server</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MongoDB</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>VS Code</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Apache Net Beans</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <!--* 5.2-Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--* 6.0-Curriculum-->
+    <section id="curriculum" class="curriculum">
+        <div class ="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class ="fila">
+                <div class ="col izquierda">
+                    <div class="item izq">
+                        <h4>Tecnologias de la Información</h4>
+                        <span class="lugar">Difraxion</span>
+                        <span class="fecha">2021-2024</span>
+                        <p>Estuve de Becario en Difraxion en el departamento de Tecnologias de la Información, aprendiendo habilidades basicas como el mantenimiento de los dispositivos, asi como realizar registros, gestion basica de redes y la proteccion de los datos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Integrante Baja SAE</h4>
+                        <span class="lugar">Universidad De La Salle Bajio</span>
+                        <span class="fecha">Junio 2025</span>
+                        <p>Actuamente integrante en BAJA SAE</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <div class="item der">
+                        <h4>Estudiante</h4>
+                        <span class="lugar">Universidad De La Salle Bajio</span>
+                        <span class="fecha">Agosto 2024-Junio 2028</span>
+                        <p>Actuamente estudio en la Universidad De La Salle Bajio, bajo la licenciuatura en la Ingeneria en Software y Sistemas Computacionales. Orgulloso de estudiar dicha ingeniera.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--* 7.0-Portafolio-->
+    <section id="portafolio" class="portafolio">
+        <div class ="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>Mi pagina Web</h3>
+                        <p>Frontend - Javascript</p>
+                        <a href="#" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Gestion de inventario</h3>
+                        <p>Backend - Java</p>
+                    </div>
+                <!--
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+    <!--* 8.0-Contacto-->
+    <section id="contacto" class="contacto">
+        <div class ="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/direccion.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Santa Virtudes 108, El Rosario
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: (+52) 477-138-7230
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: FabCA06@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--* 9.0-Footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/fabca06/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/FabCAdev" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/fabricio-cárdenas-4b145b327/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=524771387230" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
