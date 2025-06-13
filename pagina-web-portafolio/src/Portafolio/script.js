@@ -17,17 +17,18 @@ function efectoHabilidades(){
     if(distancia_skills >= 300){
         let habilidades = document.getElementsByClassName("progreso");
         habilidades[0].classList.add("Java");
-        habilidades[1].classList.add("HTMLCSS");
-        habilidades[2].classList.add("Javascript");
-        habilidades[3].classList.add("SQLServer");
-        habilidades[4].classList.add("MongoDB");
-        habilidades[5].classList.add("VSCode");
-        habilidades[6].classList.add("NetBeans");
-        habilidades[7].classList.add("Comunicacion");
-        habilidades[8].classList.add("Equipo");
-        habilidades[9].classList.add("Creatividad");
-        habilidades[10].classList.add("Dedicacion");
-        habilidades[11].classList.add("PM");
+        habilidades[1].classList.add("HTML");
+        habilidades[2].classList.add("CSS");
+        habilidades[3].classList.add("Javascript");
+        habilidades[4].classList.add("SQLServer");
+        habilidades[5].classList.add("MongoDB");
+        habilidades[6].classList.add("VSCode");
+        habilidades[7].classList.add("NetBeans");
+        habilidades[8].classList.add("Comunicacion");
+        habilidades[9].classList.add("Equipo");
+        habilidades[10].classList.add("Creatividad");
+        habilidades[11].classList.add("Dedicacion");
+        habilidades[12].classList.add("PM");
     }
 }
 
