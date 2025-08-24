@@ -1,0 +1,17 @@
+Control de versiones
+
+Version 1.1
+1-Implementacion de curriculum en pdf
+2-Crear funcion del boton para descargar el CV
+3-Se reemplazo el imagen de la ubicacion por otra
+4-Implementacion de archivo para control de versiones
+5-Se corrijieron errores visuales
+
+Version 1.0
+1-Creacion del portafolio
+2-Implementacion de HTML y CSS
+3-Implementacion de JavaScript
+4-Vinculacion con GitHub y Git
+5-Agregacion de imagenes y archivos necesarios
+6-Lanzamiento de la pagina web por medio de GitHub Pages
+7-Implementacion de Live Server para pruebas locales

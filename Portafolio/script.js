@@ -32,8 +32,16 @@ function efectoHabilidades(){
     }
 }
 
-
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();
+}
+
+function DescargarCV() {
+    const link = document.createElement('a');
+    link.href = 'src/CV_FabCA.pdf'; // Ruta al archivo PDF
+    link.download = 'CV_FabCA.pdf'; // Nombre con el que se descargará el archivo
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 }
