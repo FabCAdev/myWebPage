@@ -39,7 +39,7 @@ window.onscroll = function(){
 
 function DescargarCV() {
     const link = document.createElement('a');
-    link.href = '/myWebPage/src/CV_FabCA.pdf';// Ruta al archivo PDF
+    link.href = 'src/CV_FabCA.pdf';// Ruta al archivo PDF
     link.download = 'CV_FabCA.pdf'; // Nombre con el que se descargará el archivo
     document.body.appendChild(link);
     link.click();
