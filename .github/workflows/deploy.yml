@@ -34,7 +34,7 @@ jobs:
         with:
           # Aquí es donde especificas la carpeta que contiene tu index.html
           # La ruta es relativa a la raíz de tu repositorio
-          path: './pagina-web-portafolio/src/Portafolio'
+          path: './Portafolio'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
